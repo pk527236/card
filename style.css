@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #9D50BB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6E48AA, #9D50BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardbox{
+    height:300px;
+    width:700px;
+    background-color: rgb(105, 13, 142);
+    display: flex;
+    justify-content:space-between;
+}
+.rightbox{
+    height: 100%;
+    width:50%;
+    transition: margin-right 2s ease-in-out;
+
+}
+.rightbox img{
+        height:100%;
+        width:100%;
+        transition: all 0.6s linear 0s;
+        box-shadow: 1px 1px 15px rgb(34, 33, 33);
+
+        transform: scale(1);
+}
+.rightbox img:hover{
+    transform: scale(0.95);
+
+
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 25px;
+    width: 50%;
+    /* text-decoration: aliceblue; */
+}
+.contentbox{
+    display: flex;
+    justify-content: space-between;
+}
+.headingbox h1{
+    color: #ffffff;
+}
+.parabox p{
+    color: #ffffff;
+
+}
+.contentbox{
+    color: #ffffff;
+
+}
